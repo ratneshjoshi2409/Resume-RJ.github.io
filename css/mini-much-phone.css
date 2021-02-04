@@ -1,0 +1,173 @@
+/* *******************INTRO SECTION****************** */
+
+.user-box img {
+    width: 25vw;
+}
+
+.user-box h1 {
+    font-size: 8vw;
+}
+
+.user-box p {
+    font-size: 3vw;
+}
+
+
+/* ********Letter********** */
+
+.nav-left li:nth-child(1) {
+    font-size: 3.5vw;
+    position: relative;
+    top: 2px;
+    transform: skewY(20deg);
+}
+
+.nav-left li:nth-child(2) {
+    font-size: 2.8vw;
+    position: relative;
+    top: 2px;
+    transform: skewX(20deg);
+}
+
+.nav-left li:nth-child(3) {
+    bottom: 2px;
+    position: relative;
+    transform: skewY(20deg);
+    font-size: 2.5vw;
+}
+
+.nav-left li:nth-child(4) {
+    bottom: 2px;
+    font-size: 3vw;
+    position: relative;
+    transform: skewY(20deg);
+    transform: skew(10deg);
+}
+
+.nav-left li:nth-child(5) {
+    transform: skewY(20deg);
+    font-size: 2.3vw;
+}
+
+.nav-left li:nth-child(6) {
+    position: relative;
+    bottom: 10px;
+    transform: skewX(20deg);
+    font-size: 2.5vw;
+}
+
+.nav-left li:nth-child(7) {
+    bottom: 2px;
+    font-size: 3vw;
+    position: relative;
+    transform: skewY(20deg);
+    transform: skew(10deg);
+}
+
+
+/* ********NAVIGATION BAR*********************************** */
+
+.nav-right ul li a {
+    font-size: 2.5vw;
+}
+
+.nav-left ul li,
+.nav-right ul li {
+    margin: 1vw 2vw;
+}
+
+.nav-left,
+.nav-right {
+    margin: 2vw 0vw;
+}
+
+.navbar {
+    flex-direction: column;
+}
+
+
+/* *****************ABOUT SECTION***************************************** */
+
+.about-right h1 {
+    font-size: 6vw;
+}
+
+.mini-about h4 {
+    font-size: 3.5vw;
+    margin: 5px;
+}
+
+#about-me {
+    flex-direction: column;
+}
+
+.about-left {
+    display: none;
+}
+
+.about-common {
+    text-align: center;
+    width: 100%;
+}
+
+
+/* ****************************EXPERIENCE AND EDUCATION SECTION ********************************************************** */
+
+.e-column {
+    margin-top: 25px;
+}
+
+.Experience h1,
+.education h1 {
+    font-size: 6vw;
+}
+
+.services-section h1 {
+    font-size: 6vw;
+}
+
+.edu-exp-section {
+    flex-direction: column;
+}
+
+.Experience,
+.education {
+    width: 100%;
+}
+
+.services-cards {
+    flex-direction: column;
+}
+
+
+/* ***********************************CONTACT SECTION*********************************************************** */
+
+.contact-cards {
+    flex-direction: column;
+}
+
+.contact-section h1 {
+    font-size: 6vw;
+}
+
+.cards-a img {
+    width: 5vw;
+    margin-top: 4vw;
+}
+
+.cards-a h4 {
+    font-size: 4vw;
+}
+
+.btn {
+    font-size: 4vw;
+    padding: 2vw 5vw;
+}
+
+
+/* ******************FOOTER********************* */
+
+#footer {
+    padding: 2vw;
+    font-size: 4.2vw;
+}
